@@ -2,7 +2,7 @@ let age = prompt("Enter age to be categorized: ");//initialization and prompt fo
 
 if (age < 5){
     console.log("TODDLER"); //print statement for toddler
-} else if (age >= 12){
+} else if (age >= 5 && age <= 12){
     console.log("CHILD");//for child
 }else if (age >= 13 && age < 19){
     console.log("TEENAGER");//for teenager
